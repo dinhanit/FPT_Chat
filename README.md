@@ -1,41 +1,43 @@
+
 0. **Collect Data**
 1. **EDA (Exploratory Data Analysis)**:
-   - Tiến hành phân tích dữ liệu để hiểu rõ hơn về tập dữ liệu của bạn.
-   - Khám phá các thống kê mô tả, phân phối dữ liệu, và tương quan giữa các biến.
+   - Conduct data analysis to better understand your dataset.
+   - Explore descriptive statistics, data distribution, and correlations between variables.
 
 2. **Preprocessing**:
-   - Xử lý dữ liệu bị thiếu, dư thừa hoặc nhiễu.
-   - Chuẩn hóa dữ liệu nếu cần.
-   - Chuyển đổi dữ liệu về định dạng phù hợp để đưa vào mô hình.
+   - Handle missing, redundant, or noisy data.
+   - Normalize data if necessary.
+   - Convert data into the appropriate format for input into the model.
 
 3. **Tokenizer**:
-   - Nếu bạn làm việc với dữ liệu văn bản, chuyển đổi văn bản thành các đại diện số học (token).
-   - Sử dụng tokenizer để tách câu thành từ hoặc từ thành token.
+   - If working with text data, convert text into numerical representations (tokens).
+   - Use a tokenizer to split sentences into words or words into tokens.
 
 4. **Modeling**:
-   - Xây dựng mô hình học máy hoặc mô hình học sâu phù hợp với mục tiêu của bạn.
-   - Chọn kiến trúc mô hình, cấu hình lớp, và hàm kích hoạt phù hợp.
-   - Thiết kế mạng neural (nếu cần) và cấu hình các tham số.
+   - Build a suitable machine learning or deep learning model according to your goals.
+   - Choose model architecture, layer configurations, and appropriate activation functions.
+   - Design the neural network (if needed) and configure parameters.
 
 5. **Validation**:
-   - Chia tập dữ liệu thành tập huấn luyện và tập xác thực (validation).
-   - Đào tạo mô hình trên tập huấn luyện và đánh giá hiệu suất trên tập xác thực.
-   - Theo dõi sự tiến bộ của mô hình và xác định khi nào nên dừng việc đào tạo.
+   - Split the dataset into training and validation sets.
+   - Train the model on the training set and evaluate performance on the validation set.
+   - Monitor model progress and determine when to stop training.
 
 6. **Testing**:
-   - Đánh giá hiệu suất của mô hình trên tập dữ liệu kiểm tra độc lập mà mô hình chưa từng thấy.
-   - Đánh giá độ chính xác, độ tin cậy và hiệu suất tổng thể của mô hình.
+   - Evaluate model performance on an independent test dataset that the model has not seen before.
+   - Assess accuracy, reliability, and overall model performance.
 
-7. **Optimized Hyperparameter**:
-   - Tinh chỉnh các siêu tham số của mô hình để cải thiện hiệu suất.
-   - Sử dụng kỹ thuật tìm kiếm lưới (grid search) hoặc tối ưu hóa ngẫu nhiên để tìm giá trị tốt nhất cho các siêu tham số.
+7. **Optimized Hyperparameters**:
+   - Fine-tune model hyperparameters to improve performance.
+   - Use techniques such as grid search or random optimization to find the best values for hyperparameters.
 
 8. **Testing (Again)**:
-   - Kiểm tra lại hiệu suất của mô hình sau khi tối ưu hóa siêu tham số.
+   - Test the model again after optimizing hyperparameters.
 
 9. **Summary Achieved**:
-   - Tạo bản tóm tắt về mô hình, siêu tham số đã chọn, và kết quả đạt được.
+   - Summarize the model: Architecture, Accuracy, Hyperparameters.
 
-10. **Demo**:
-   - Tạo một demo hoặc ứng dụng thực tế để trình bày cách mô hình hoạt động trong tình huống thực tế.
-
+11. **Demo**:
+   - Deploy a web application using Django:
+     + Home: Provide information about the team, project, and contact details.
+     + Applications: chat_PhoBert + Sentiment Classification..
