@@ -1,1 +1,6 @@
-<img src="image1.png" width="200"/> <img src="image2.png" width="200"/> <img src="image3.png" width="200"/> <img src="image4.png" width="200"/>
+# Product:
+- This is a project NLP Vietnames buid base on PhoBert. This the chatbot AI and Segmentation FeedBack
+- About Team:
++ Leader: [Nguyen Thanh Dat](/Introduction/Image/dat.jpg)
++ Code: [Ngo Dinh An](/Introduction/Image/an.jpg)
++ Data: Duong Thanh Duy, Hoang Thanh Lam, Truong Phuoc Trung
