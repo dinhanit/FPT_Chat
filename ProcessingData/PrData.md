@@ -1,15 +1,15 @@
 # Processing Data
 - Proplem:
-   + Stop words,
+   + Stop words
    + Punctuation
-   + Pro noun, 
-   + Spell correct word, 
+   + Pro noun
+   + Spell correct word
    + Translate English to Vietnamese
    + Icon 
      + Translate emoticon to Vietnamese
      + Emoticon
      + Emoji
-     + 
+  
 # Work it out:
 - Removes 
    + Stop words:
