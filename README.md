@@ -3,6 +3,6 @@
 - [Exploratory Data Analysis](EDA/eda.md)
 - [Processing Data](ProcessingData/PrData.md)
 - [Model](Model/model.md)
-- 
-# Web Demo
+- [Web Application](Web/web.md)
+## Demo
 [link_web]()
