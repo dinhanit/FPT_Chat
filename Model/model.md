@@ -1,12 +1,28 @@
 # 1. Information
-- Based on: wonrax/phobert-base-vietnamese-sentiment
+- Based on: 
+   + Model: wonrax/phobert-base-vietnamese-sentiment
+   + Tokenizer: wonrax/phobert-base-vietnamese-sentiment
 - Main Technique: Pytorch, Transformers
-
-- Parameter:
-  + Epoch: 5
-  + Learning rate: 0.05
-  + Scheduler: Logistic
+- Source: [Hugging Face](https://huggingface.co/)
+![Loss](/Model/Image/hug.png)
+- Specifications
+  - Data:
+      + Train: 11426 sentences
+      + Test: 3166 sentences
+  - Parameter:
+    + Epoch: 5
+    + Learning rate: 5e-5
 	
 # 2. Performance
-- Accuracy: 0.93%
-![Loss](/Model/Image/loss.png)
+## Working on Original data
+   - Accuracy: 92%
+
+        ![Loss](/Model/Image/beforeValLoss.png)
+        ![Loss](/Model/Image/beforeTestLoss.png)
+
+##  Working on Clean Data
+   - Accuracy: 94%
+
+        ![Loss](/Model/Image/afterValLoss.png)
+        ![Loss](/Model/Image/afterTestLoss.png)
+
