@@ -15,13 +15,13 @@
 	
 # 2. Performance
 ## Working on Original data
-   - Accuracy: 92%
+   - Accuracy: 92.5%
 
         ![Loss](/Model/Image/beforeValLoss.png)
         ![Loss](/Model/Image/beforeTestLoss.png)
 
 ##  Working on Clean Data
-   - Accuracy: 94%
+   - Accuracy: 93.5%
 
         ![Loss](/Model/Image/afterValLoss.png)
         ![Loss](/Model/Image/afterTestLoss.png)
