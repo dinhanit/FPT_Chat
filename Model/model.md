@@ -3,8 +3,10 @@
    + Model: wonrax/phobert-base-vietnamese-sentiment
    + Tokenizer: wonrax/phobert-base-vietnamese-sentiment
 - Main Technique: Pytorch, Transformers
-- Source: [Hugging Face](https://huggingface.co/)
-    ![Loss](/Model/Image/hug.png)
+- Source: 
+    + [Hugging Face](https://huggingface.co/)
+    + ![Loss](/Model/Image/hug.png)
+
 - Specifications
   - Data:
       + Train: 11426 sentences
