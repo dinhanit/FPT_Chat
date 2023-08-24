@@ -10,6 +10,7 @@
 - Specifications
   - Data:
       + Train: 11426 sentences
+      + Val: 1583 sentences
       + Test: 3166 sentences
   - Parameter:
     + Epoch: 5
